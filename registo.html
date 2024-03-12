@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registo.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav onclick="back()"><button>back</button></nav>
+    
+    <div class="container">
+        <h1>Registo</h1>
+        <form>
+            <div class="caixa">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Repetir Senha">
+                <div class="termo">
+
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+    
+    </div>
+    <div class="termo">
+        <input type="checkbox" id="termos">
+        <label for="termos">Eu concordo com os <a href="termos.html" target="_blank">Termos de Uso e Politica de Privacidade</a></label>
+        
+    </div>
+    <button class="btn">Registar</button>
+    <script>
+
+        function back(){
+            window.location.href = "projeto.html"
+        }
+        </script>
+
+    
+</body>
+</html>

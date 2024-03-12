@@ -1,0 +1,38 @@
+
+body{
+    background-color: #94897d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+nav button {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background-color: #242321;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #242321;
+}

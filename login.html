@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav onclick="back()"><button>back</button></nav>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="caixa">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button class="btn">Entrar</button>
+            </div>
+        </form>
+        <p>Não tem conta? <a href="registo.html">Registe-se aqui</a></p>
+        <p><a href="password.html">Recuperar Senha</a></p>
+    </div>
+
+    <script>
+
+    function back(){
+        window.location.href = "projeto.html"
+    }
+    </script>
+</body>
+</html>
